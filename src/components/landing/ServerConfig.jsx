@@ -106,7 +106,7 @@ const ServerConfig = () => {
                     </span>
                     
                     <SliderCustom w={250} min={"1 IP"} max={"50 IPs"} />
-                    
+                    {/* console.log(w); */}
                 </div>
             </div>
         </>
