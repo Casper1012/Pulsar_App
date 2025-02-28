@@ -1,12 +1,10 @@
 import React from 'react';
-import Landing from './pages/Landing';
-import { ThemeProvider } from '@mui/material/styles';
-// import theme from './your-theme-file';
+import AppRoutes from './routes';
 
 function App() {
   return (
       <div>
-        <Landing />
+        <AppRoutes />
       </div>
   );
 }

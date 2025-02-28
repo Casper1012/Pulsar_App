@@ -31,8 +31,8 @@ const Header = () => {
             </div>
 
             <div className="flex items-center gap-3">
-                <button className="text-white text-base p-2 sm:pt-[0.62rem] sm:pr-[1.12rem] sm:pb-[0.62rem] sm:pl-[1.12rem] hover:opacity-80 transition-opacity">Log in</button>
-                <button className="text-white text-base bg-signUpBtn rounded-[48px] p-2 sm:pt-[0.62rem] sm:pr-[1.12rem] sm:pb-[0.62rem] sm:pl-[1.12rem] hover:opacity-80 transition-opacity">Sign up</button>
+                <Link to="/login" className="text-white text-base p-2 sm:pt-[0.62rem] sm:pr-[1.12rem] sm:pb-[0.62rem] sm:pl-[1.12rem] hover:opacity-80 transition-opacity">Log in</Link>
+                <Link to="/signup" className="text-white text-base bg-signUpBtn rounded-[48px] p-2 sm:pt-[0.62rem] sm:pr-[1.12rem] sm:pb-[0.62rem] sm:pl-[1.12rem] hover:opacity-80 transition-opacity">Sign up</Link>
             </div>
         </div>
     );
