@@ -16,6 +16,10 @@ code {
     monospace;
 }
 
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
 .box-border {
   position: relative;
   z-index: 0;
@@ -32,4 +36,10 @@ code {
     linear-gradient(#000 0 0) content-box, 
     linear-gradient(#000 0 0);
   mask-composite: exclude; 
+}
+
+.msgStyle {
+  background-image: url("./assets/svg/message.svg") !important;
+  background-repeat: no-repeat;
+  background-position: center;
 }

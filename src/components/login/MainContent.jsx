@@ -16,7 +16,6 @@ const MainContent = () => {
         setIsChecked(!isChecked);
     };
 
-    console.log(window.innerHeight);
     return (
         <main className='flex items-center justify-center w-full min-h-[800px] h-[calc(100vh-5rem)] bg-mainBg text-white px-4 py-10'>
             <div className='flex flex-col items-center justify-center w-[18.75rem] lg:w-[22.5rem]'>

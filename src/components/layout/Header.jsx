@@ -14,7 +14,7 @@ const Header = () => {
                 <span className="pl-[0.5rem] sm:pl-[2.63rem] pb-[7px]"><Logo className="mt-[-3px]" /></span>
                 <button className="lg:hidden" onClick={() => setIsMenuOpen(!isMenuOpen)}><img src={BarsIcon} alt="Bars Icon" /></button>
                 <div className="hidden lg:flex items-center gap-8">
-                    <Link to="/" className="text-white text-base hover:opacity-80 transition-opacity">Home</Link>
+                    <Link to="/home" className="text-white text-base hover:opacity-80 transition-opacity">Home</Link>
                     <Link to="/" className="text-white text-base hover:opacity-80 transition-opacity">Products <FontAwesomeIcon icon={faChevronDown} className="pl-2"/></Link>
                     <Link to="/" className="text-white text-base hover:opacity-80 transition-opacity">Resources <FontAwesomeIcon icon={faChevronDown} className="pl-2" /></Link>
                     <Link to="/" className="text-white text-base hover:opacity-80 transition-opacity">Pricing</Link>
